@@ -1,0 +1,128 @@
+@font-face{
+    font-family: Frank;
+    src: url(/html/franklin.ttf);
+}
+
+.menu {
+	font-family: Frank;
+	background: rgba(0, 0, 0, 0.664);
+	box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.692);
+	border-radius: 10px;
+	font-size: 27px;
+	padding: 12px;
+	min-width: 300px;
+	color: #fff;
+	text-align: left;
+	position: absolute;
+}
+
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px rgb(255, 255, 255);
+	border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: rgb(255, 255, 255);
+	border-radius: 5px;
+  }
+
+.menu .head {
+	background-color: none;
+	color: rgb(255, 255, 255);
+	text-align: left;
+	text-shadow: 1px 1px #0000004f;
+	font-size: 26px;
+	height: 37px;
+	line-height: 40px;
+}
+
+.menu .menu-items {
+	background: none;
+	padding: 9px;
+	border-radius: 8px;
+	max-height: 450px;
+	overflow-y: auto;
+}
+
+.menu .menu-items .menu-item {
+	background: none;
+	display: block;
+	padding: 7px;
+	font-size: 15px;
+	text-align: left;
+	text-indent: 5px;
+	margin-top: 5px;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+.menu .menu-items .menu-item.selected {
+	background: #ffffff;
+	border: 2.0px solid #ffffff;
+	border-radius: 5px;
+	color: #000000e3;
+	animation: fadeIn 5s;
+}
+
+.hr {
+	border-color: white;
+	background-color: white;
+	height: 1.0px;
+	margin-top: 8px;
+	margin-bottom: 6px;
+	border-radius: .8vw;
+}
