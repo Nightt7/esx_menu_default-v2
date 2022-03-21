@@ -1,4 +1,4 @@
-FiveM ESX Menu Default by Nightt#8899
+FiveM ESX Menu Default V2 by Nightt#8899
 
 - | Discord: https://discord.gg/Suh7hfwwXV
 - | Preview:
